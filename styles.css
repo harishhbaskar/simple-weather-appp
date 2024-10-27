@@ -1,0 +1,79 @@
+body{
+    background-color: hsl(25, 100%, 95%);
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    margin-bottom: 20px;
+}
+.cityInput{
+    font-size: 1.5rem;
+    border: none;
+    background-color: hsl(25, 60%, 85%);
+    padding: 12px;
+    margin: 25px 15px;
+    border-radius: 10px;
+}
+.submitButton{
+    font-size: 1.5rem;
+    background-color: hsla(24, 75%, 71%, 0.794);
+    color:hsl(0, 0%, 20%); ;
+    padding:12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: hsla(24, 75%, 61%, 0.794);
+}
+.card{
+    margin: none;
+    color:hsl(0, 0%, 20%);
+    font-weight: bolder;
+    display:flex;
+    flex-direction: column;
+    min-width: 800px;
+    min-height: 420px;
+    background-color: hsla(24, 88%, 77%, 0.843);
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 50%);
+
+}
+.cityDisplay{
+    font-size: 3.5rem;
+    margin-top: 60px;
+    margin-bottom:10px;
+
+}
+.tempDisplay{
+    font-size: 2.7rem;
+    margin: 5px;
+    margin-bottom: 40px;
+}
+.humidityDisplay{
+    font-size: 2rem;
+    margin: 5px;
+    margin-bottom: 10px;
+
+}
+.descDisplay{
+    font-size:2rem;
+    margin:5px;
+}
+.emojiDisplay{
+    display:none;
+    font-size:7rem;
+    margin-top: 25px;
+}
+.errorDisplay{
+    font-size:2.5rem;
+    color:hsl(0, 0%, 20%);
+    font-weight: bold;
+}
